@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	="http://phonegap.com/ns/1.0"
+	id			="com.crt.app"
+	versionCode	="10"
+	version		="1.0" >
+	
+<!-- versionCode is optional and Android only -->
+
+	<name>App Calcolo Interesse</name>
+	
+	<description>
+		App per calcolare l'interesse semplice.
+	</description>
+	
+	<author email="ilagan.chester@canossamilano.org">
+		Chester Ilagan
+	</author>
+	
+	<icon src="icona.png" platform="android" qualifer"ldpi" />
+	<icon src="icona.png" platform="android" qualifer"mdpi" />
+	<icon src="icona.png" platform="android" qualifer"hdpi" />
+
+	<icon src="icona.png" platform="ios" qualifer"ldpi" />
+	<icon src="icona.png" platform="ios" qualifer"mdpi" />
+	<icon src="icona.png" platform="ios" qualifer"hdpi" />
+
+	<acess origin="*"/>
+	
+	<plugin name="cordova.plugin-whitelist" source="npm" />
+	<allow-navigation href="*//*getskeleton.com/*" />
+	</widget>
+	
